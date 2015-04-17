@@ -1,0 +1,14 @@
+Source: scalastyle
+Maintainer: Vegard Bønes <vegard.bones@met.no>
+Section: java
+Priority: optional
+Build-Depends: debhelper (>= 7.4.3), cdbs
+Standards-Version: 3.9.3
+
+Package: scalastyle-0.6
+Architecture: all
+Depends: ${misc:Depends}, java7-runtime
+Description: Check style of scala source code.
+ A very thin wrapper around code from www.scalastyle.org/
+ You must run this with --configure=<something>, where 
+ <something> may be /etc/scalastyle-config.xml.
