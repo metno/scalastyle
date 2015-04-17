@@ -1,0 +1,5 @@
+#!/bin/sh
+
+JAR_FILE=__DATAROOT__/java/scalastyle_2.11-0.6.0-batch.jar
+
+java -jar $JAR_FILE $@
