@@ -1,0 +1,19 @@
+This is a very simple wrapper around the scalastyle batch program,
+found at http://www.scalastyle.org/
+
+It provides two things:
+
+  * A shell script for easier calling
+  * Creation of a debian package for easy standardized installation.
+
+Building:
+
+$ autoreconf -i && ./configure && make 
+
+Installing:
+
+$ sudo make install
+
+Creating debian package:
+
+$ make debian
